@@ -1,0 +1,12 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "este es un proyecto de javascript",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo Message: este es un texto de prueba"
+  },
+  "keywords": [],
+  "author": "Jeremias ramirez s",
+  "license": "ISC"
+}
