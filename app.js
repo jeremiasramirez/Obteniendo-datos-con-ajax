@@ -41,13 +41,8 @@ let data =document.getElementById("data");
  		// http2.addEventListener("load", loaded2, false);
 		console.log(http.status)
  			function loaded(e){
- 				let js = JSON.parse(e.target.responseText);
- 				
- 				 	 
- 		 	
+ 				let js = JSON.parse(e.target.responseText); 	
  		 		for(let k=0; k<js.length; k++){
-
-
 
  				let container = document.createElement("div"),
  					fragment = document.createDocumentFragment(),
@@ -74,11 +69,8 @@ let data =document.getElementById("data");
  				 	time.innerHTML = timeNow;
  				 	container.appendChild(time)
  				 	
- 			 
  				 	data.appendChild(container);
  				 	}
- 					
-
  			}
 		
  			//  function loaded2(e){
