@@ -2,3 +2,4 @@ assets
 server.js
 prepros-6.config
 .gitignore
+package.json
